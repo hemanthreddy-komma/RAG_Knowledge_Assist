@@ -10,3 +10,4 @@ langchain-community
 sentence-transformers
 faiss-cpu
 unstructured
+python-dotenv
