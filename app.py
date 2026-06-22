@@ -2,7 +2,6 @@ import os
 import tempfile
 
 import streamlit as st
-from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 
 from langchain_groq import ChatGroq
@@ -18,7 +17,6 @@ from langchain_core.prompts import ChatPromptTemplate
 # -----------------------------
 # Setup
 # -----------------------------
-load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 st.set_page_config(
